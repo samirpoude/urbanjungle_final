@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Urban Jungle</title>
+    <meta name="description" content="Get in touch with our plant experts">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="leaf-icon">🌿</span>
+                <span>Urban Jungle</span>
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="products.html" class="nav-link">Products</a>
+                <a href="care-tips.html" class="nav-link">Care Tips</a>
+                <a href="contact.html" class="nav-link active">Contact Us</a>
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="page-container">
+            <h1 class="section-title">Contact Us</h1>
+            <p class="page-subtitle">
+                Have questions about our plants or need personalized recommendations? We're here to help you find the perfect
+                green companions for your space.
+            </p>
+
+            <div class="contact-container">
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <div class="card">
+                        <h2 class="form-title">Send us a Message</h2>
+                        
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a topic</option>
+                                    <option value="plant-recommendation">Plant Recommendation</option>
+                                    <option value="care-advice">Care Advice</option>
+                                    <option value="availability">Plant Availability</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" required rows="5" 
+                                    placeholder="Tell us about your space, lighting conditions, experience level, or any specific questions you have..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-section">
+                    <div class="card">
+                        <h2 class="form-title">Get in Touch</h2>
+
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <span class="contact-icon">📧</span>
+                                <div>
+                                    <p class="contact-label">Email</p>
+                                    <p class="contact-value">hello@urbanjungle.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <span class="contact-icon">📞</span>
+                                <div>
+                                    <p class="contact-label">Phone</p>
+                                    <p class="contact-value">(555) 123-PLANT</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <span class="contact-icon">📍</span>
+                                <div>
+                                    <p class="contact-label">Location</p>
+                                    <p class="contact-value">
+                                        Downtown Plant District<br>
+                                        Urban City, UC 12345
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <span class="contact-icon">⏰</span>
+                                <div>
+                                    <p class="contact-label">Response Time</p>
+                                    <p class="contact-value">Within 24 hours</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3 class="faq-title">Frequently Asked Questions</h3>
+                        <div class="faq-list">
+                            <div class="faq-item">
+                                <p class="faq-question">Do you offer plant delivery?</p>
+                                <p class="faq-answer">Currently, we offer local pickup. Delivery options coming soon!</p>
+                            </div>
+                            <div class="faq-item">
+                                <p class="faq-question">Can you help me choose the right plant?</p>
+                                <p class="faq-answer">Tell us about your space, lighting, and experience level.</p>
+                            </div>
+                            <div class="faq-item">
+                                <p class="faq-question">Do you provide ongoing plant care support?</p>
+                                <p class="faq-answer">Yes! We're always here to help with care questions and troubleshooting.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="page-container">
+            <p>&copy; 2024 Urban Jungle. Bringing nature to your urban space.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
